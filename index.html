@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="Search_Page.html">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <i class="fa-regular fa-less-than"></i>
+                    <i class="fa-regular fa-greater-than hide"></i>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"> <i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i> Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-1.png" alt="card-1" class="card-image">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-2.png" alt="card-2" class="card-image">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-3.png" alt="card-3" class="card-image">
+                    <p class="card-title">Tum kya Mile (Fro...</p>
+                    <p class="card-info">Pritam, Arjit Singh, Shreya Ghoshal</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-4.png" alt="card-4" class="card-image">
+                    <p class="card-title">Yaar Ka Sataya Hua...</p>
+                    <p class="card-info">B Praak, Jaani</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-5.png" alt="card-5" class="card-image">
+                    <p class="card-title">Le Aaunga (From"...</p>
+                    <p class="card-info">Tanishk Bagchi, Arjit Singh</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-6.png" alt="card-6" class="card-image">
+                    <p class="card-title">Champagne Talk</p>
+                    <p class="card-info">King</p>
+                </div>
+            </div>
+
+            <h2>Popular Albums</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-7.png" alt="card-7" class="card-image">
+                    <p class="card-title">Kabir Singh</p>
+                    <p class="card-info">Various Artists</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-8.png" alt="card-8" class="card-image">
+                    <p class="card-title">Phir Aur Kya Chahi...</p>
+                    <p class="card-info">Sachin-Jigar, Arjit Singh, Amitabh...</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-6.png" alt="card-9" class="card-image">
+                    <p class="card-title">Champagne</p>
+                    <p class="card-info">King</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-10.png" alt="card-10" class="card-image">
+                    <p class="card-title">Yeh Jawaani Hai D...</p>
+                    <p class="card-info">Pritam</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-11.png" alt="card-11" class="card-image">
+                    <p class="card-title">AAshiqui 2</p>
+                    <p class="card-info">Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                </div>
+            </div>
+
+            <h2>Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-12.png" alt="card-12" class="card-image">
+                    <p class="card-title">Hot Hits Punjabi</p>
+                    <p class="card-info">Catch the hottest Punjabi tracks with...</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-13.png" alt="card-13" class="card-image">
+                    <p class="card-title">Latest Tamil</p>
+                    <p class="card-info">New Music from Kollywood. Cover : LEO</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-14.png" alt="card-14" class="card-image">
+                    <p class="card-title">Top 50 - India</p>
+                    <p class="card-info">Your daily update of the most played tracks rig...</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-15.png" alt="card-15" class="card-image">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks rig...</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-16.png" alt="card-16" class="card-image">
+                    <p class="card-title">Hot Hits Hindi</p>
+                    <p class="card-info">Hottest Hindi music served here. Cover -...</p>
+                </div>
+            </div>
+
+            <h2>Shows to try</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-17.png" alt="card-17" class="card-image">
+                    <p class="card-title">True Story Bro! wit...</p>
+                    <p class="card-info">Spotify</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-18.png" alt="card-18" class="card-image">
+                    <p class="card-title">The Joe Rogan Exp...</p>
+                    <p class="card-info">Joe Rogan</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-19.png" alt="card-19" class="card-image">
+                    <p class="card-title">The Ranveer Show</p>
+                    <p class="card-info">BeerBiceps</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-20.png" alt="card-20" class="card-image">
+                    <p class="card-title">The Stories of Mah...</p>
+                    <p class="card-info">Sudipta Bhawmik</p>
+                </div>
+                <div class="card">
+                    <!--<i class="fa-solid fa-circle-play"></i>-->
+                    <img src="Card-21.png" alt="card-21" class="card-image">
+                    <p class="card-title">Pretkotha (Bengali ...</p>
+                    <p class="card-info">Gourab Tapadar</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-image">
+                    <img src="Left-Panel-icon.png" alt="album-image">
+                </div>
+                <div class="album-description">
+                    <p class="card-title">Tere Vaaste (From "Zara Hatke...</p>
+                    <p class="card-info">Varun Jain, Sachin-Jigar, Sh...</p>
+                </div>
+                <div class="album-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="Left-Panel-Picture-in.png" alt="Picture-in-Picture">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <i class="fa-solid fa-shuffle player-control-icon"></i>
+                    <i class="fa-solid fa-backward-step player-control-icon"></i>
+                    <i class="fa-regular fa-circle-play player-control-icon" style="opacity: 1; height: 2rem; font-size: 2rem;"></i>
+                    <i class="fa-solid fa-forward-step player-control-icon"></i>
+                    <i class="fa-solid fa-repeat player-control-icon"></i>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">1:34</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-file-audio"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-solid fa-mobile"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="100" step="1" class="progress-bar control-bar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
